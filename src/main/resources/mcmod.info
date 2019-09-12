@@ -1,0 +1,14 @@
+  [{
+    "modid": "cmk_daf",
+    "name": "Diamonds Are Forever",
+    "description": "Makes diamond tools last forever",
+    "version": "0.0.1",
+    "mcversion": "${mcversion}",
+    "url": "",
+    "updateUrl": "",
+    "authorList": ["captainmk"],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": []
+  }]
