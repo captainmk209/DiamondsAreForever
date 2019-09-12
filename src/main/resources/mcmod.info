@@ -1,7 +1,7 @@
   [{
     "modid": "cmk_daf",
     "name": "Diamonds Are Forever",
-    "description": "Makes diamond tools last forever",
+    "description": "Makes diamond tools and armor last forever",
     "version": "0.0.1",
     "mcversion": "${mcversion}",
     "url": "",

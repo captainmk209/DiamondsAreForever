@@ -1,5 +1,6 @@
 package captainmk.diamonds4ever;
 
+import net.minecraft.init.Items;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraftforge.fml.common.Mod.EventHandler;
 import net.minecraftforge.fml.common.Mod.Instance;
@@ -15,6 +16,15 @@ public class DiamondsAreForever {
     @EventHandler
     public void preInit(FMLPreInitializationEvent event) {
         System.out.println(Reference.MODID + ":preInit");
+        Items.DIAMOND_HELMET.setMaxDamage(0);
+        Items.DIAMOND_CHESTPLATE.setMaxDamage(0);
+        Items.DIAMOND_LEGGINGS.setMaxDamage(0);
+        Items.DIAMOND_BOOTS.setMaxDamage(0);
+        Items.DIAMOND_AXE.setMaxDamage(0);
+        Items.DIAMOND_HOE.setMaxDamage(0);
+        Items.DIAMOND_PICKAXE.setMaxDamage(0);
+        Items.DIAMOND_SHOVEL.setMaxDamage(0);
+        Items.DIAMOND_SWORD.setMaxDamage(0);
     }
 
     @EventHandler
