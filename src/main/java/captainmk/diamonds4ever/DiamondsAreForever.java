@@ -14,8 +14,11 @@ public class DiamondsAreForever {
     public static DiamondsAreForever instance;
 
     @EventHandler
-    public void preInit(FMLPreInitializationEvent event) {
-        System.out.println(Reference.MODID + ":preInit");
+    public void preInit(FMLPreInitializationEvent event) { System.out.println(Reference.MODID + ":preInit"); }
+
+    @EventHandler
+    public void init(FMLInitializationEvent event) {
+        System.out.println(Reference.MODID + ":init");
         Items.DIAMOND_HELMET.setMaxDamage(0);
         Items.DIAMOND_CHESTPLATE.setMaxDamage(0);
         Items.DIAMOND_LEGGINGS.setMaxDamage(0);
@@ -25,11 +28,6 @@ public class DiamondsAreForever {
         Items.DIAMOND_PICKAXE.setMaxDamage(0);
         Items.DIAMOND_SHOVEL.setMaxDamage(0);
         Items.DIAMOND_SWORD.setMaxDamage(0);
-    }
-
-    @EventHandler
-    public void init(FMLInitializationEvent event) {
-        System.out.println(Reference.MODID + ":init");
     }
 
     @EventHandler
